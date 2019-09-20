@@ -1,0 +1,32 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+    .ui.card {
+    width: 250px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    }
+
+    >.content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    >.content>.description {
+        text-align: center;
+    }
+}
+
+.ui.card>.extra a {
+    padding: 10px;
+}
